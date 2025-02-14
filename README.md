@@ -88,3 +88,38 @@ For example: Consider a library's catalogue system. At the logical level, it’s
 This is the highest level of data abstraction. It describes the interaction between users and the database system, focusing on what users can see and access.
 
 For example: In a library, different visitors may have different levels of access. At the view level, it's like determining who can borrow specific types of books or access restricted sections based on their role or membership level.
+
+## Data Architecture
+A schema is a logical container or structure that organises and defines the structure of a database.
+
+It defines how data is organised, what data types are used, what constraints are applied, and the relationships between different pieces of data. A schema acts as a blueprint for the database, ensuring data integrity, consistency, and efficient data retrieval.
+
+![17395275118565466262027821988647](https://github.com/user-attachments/assets/489ca191-9e95-493c-a0c4-aaf66bac1f82)
+
+### Types of Schema
+#### Physical Schema: 
+A physical schema defines how data is stored on the underlying hardware, including details such as storage format, file organisation, indexing methods, and data placement.
+#### Logical Schema
+## Logical Schema
+A logical schema defines the database’s structure from a logical or conceptual perspective, without considering how the data is physically stored.
+![17395277344381701414972393489261](https://github.com/user-attachments/assets/2e196fff-c584-4e9d-87c5-2450aac7968a)
+
+### Conceptual Schema: 
+The conceptual schema represents the overall view of the entire database. It defines the high-level structure and relationships between all data elements.
+
+For example: Consider a university database with entities such as Student, Course, and Department. 
+Relationships among them are: 
+* Students can enrol in multiple Courses.
+* Each Course can be taken by multiple students.
+* Each Course is offered by one Department, but a Department can offer multiple courses.
+
+Note: The focus is on what the data represents (students, courses, departments) and how these entities are interrelated through relationships like enrollment and offerings.
+
+### External/View Schema: 
+An external schema defines the user-specific views of the database. It focuses on the portions of the database that are relevant to specific user roles or applications.
+
+For example: In a university database, for a Student's Portal, the view will have StudentProfile. This view provides a student with access to their data and their course enrollments, but not to other students' information or course details like credits or department.
+
+### Instance
+The term "instance" in this context denotes the current values of these variables at a particular moment in time for that database.
+![17395289223113236865712337908942](https://github.com/user-attachments/assets/7ea3e748-d7e6-4122-84d8-8f05a96f4dc8)
