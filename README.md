@@ -151,3 +151,46 @@ Relevant information, such as product details and user account information, is r
 2. Potential Latency Issues and Bottlenecks: The added step of processing increases the possibility of latency and bottlenecks, as problems can arise in any layer at any time.
 3. Longer Development Time: Implementing three tiers with different logics and distributed responsibilities results in longer development time.
 4. Resource Overhead: Implementing an extra tier causes resource overhead for development, processing, and maintenance of the architecture.
+
+# Data Models
+A data model in a DBMS is an abstract way to represent how data is structured and organized within a database. It shows the logical arrangement of data and the connections between different data components. Data models are crucial for understanding and designing databases, linking real-world entities to actual data storage.
+
+For instance, before writing an algorithm for “Making Maggi,” having a flowchart makes it easier to implement the algorithm. Similarly, having a data model helps in understanding the relationships between different components in the database.
+
+## Types of Data Models
+### Hierarchical Data Model
+This model displays data in a tree structure, where each record has a parent-child relationship. It is mainly used in older database systems.
+
+For example, 
+![17395312826213034478396773688164](https://github.com/user-attachments/assets/3334105a-b1ef-42db-8b99-9fd3e172e43d)
+
+### Network Data Model
+This model allows records to have multiple parent-child relationships, resembling a graph. It offers more flexibility than the hierarchical model.
+
+For example, the image shows that "Student" has both "Lab" and "School" as parents.
+![17395313268211091406306986262682](https://github.com/user-attachments/assets/ad8a5dd1-4165-498f-bf80-16fedca3838d)
+
+### Relational Data Model
+The relational model organizes data into tables (known as relations) with rows and columns. It is the most common data model and is based on set theory, using Structured Query Language (SQL) for data manipulation.
+
+Example: A customer database where customers are stored in a table with attributes like name, address, and phone number.
+
+### Entity-Relationship Model (ER Model)
+The ER model is used to design relational databases by representing data as entities (objects), attributes (properties of entities), and the relationships connecting these entities.
+
+For example, the entity "Student" has an attribute "S.Name" and a relationship with the entity "Courses."
+
+### Object-Oriented Data Model
+This model applies the principles of object-oriented programming to databases. It represents data as objects with attributes and methods, supporting inheritance and encapsulation.
+
+Example: A product in an e-commerce system can be represented as an object with properties like price, description, and methods to calculate discounts.
+
+### NoSQL Data Models
+NoSQL databases offer various data models, including:
+
+* Document-oriented (e.g., MongoDB)
+* Key-value (e.g., Redis)
+* Column-family (e.g., Cassandra)
+* Graph (e.g., Neo4j)
+
+These models are designed for scalability and flexibility, particularly when managing large amounts of unstructured or semi-structured data.
