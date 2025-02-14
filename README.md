@@ -1,10 +1,10 @@
 # Introduction to DBMS
 ### Data
 Data is referred to as the collection of raw facts or figures that can be processed to derive meaning or knowledge. It is a collection of information gathered by observations, measurements, research, or analysis. In simpler terms, data is any fact that can be stored, e.g., "EXY", "12", etc.
+
 ### Information
 * Data when processed becomes Information. 
-* Information is the knowledge obtained from investigating, studying, or instructing data. For example, "Raj" is just data that can be written in a register, but when assigned to a person, it becomes information, i.e., the name of that man.
-
+* Information is the knowledge obtained from investigating, studying, or instructing data.
 <b>For Example:</b> Consider the string “orange”. Here, it could mean a color or a fruit. This term “orange” is data. However, if we say “color orange” or “fruit orange”, it becomes information.
 
 ## Database
@@ -15,7 +15,7 @@ A database is a structured collection of interrelated data organized in a way th
 
 <b>Example of database:</b>
 ![17395221110214575176719766398525](https://github.com/user-attachments/assets/8a1fd473-7309-4911-abe0-caa5572f27aa)
-For example, in a multimedia database, the image table would contain information about images like pixels, length, and width. Similarly, the video table would have features like pixels and video length. The image and video tables would be part of the multimedia database.
+For example, in a multimedia database, the image table would contain information about images like pixels, length, and width.
 
 Similarly, a college database would have tables like professor and student tables that are related to the timetable for class schedules.
 
@@ -44,7 +44,7 @@ Mainly two types of database -
    Good for storing large data volumes.
 
 ## DBMS and its Applications
-A DBMS is a software application that acts as an interface between the data and the end user, allowing users to efficiently store, manage, retrieve, and manipulate large volumes of structured data. DBMS provides these functionalities by allowing database managers to implement certain rules and regulations in the system for different operations over the data.
+A DBMS is a software application that acts as an interface between the data and the end user, allowing users to efficiently store, manage, retrieve, and manipulate large volumes of structured data.
 * Organisation: data is arranged into tables in DBMSs, each having a unique collection of rows (like individual books) and columns (like book characteristics).
 * Search and Retrieval: users can perform queries to search for specific data using structured query language (SQL) or other interfaces.
 * Access Control: access control mechanisms ensure that only authorized users can access certain data, protecting sensitive information.
@@ -58,3 +58,9 @@ For example: Imagine your college’s library. Your library has thousands of boo
 * Schools and Colleges
 * E-commerce 
 * Enterprise Resource Planning (ERP)
+
+## Need of DBMS
+DBMS plays a vital role for businesses, institutions, and organizations to effectively manage and utilize their data. It helps in the following ways:
+* Managing Data: DBMS assists in managing operations like inserting, deleting, and manipulating data effectively.
+* Ensuring Data Accuracy and Security: DBMS provides access control, ensuring that data is not accessible to unauthorized parties, which guarantees security and data accuracy.
+* Supporting Decision-Making: DBMS provides control over how data is handled, which supports essential decision-making for businesses and organizations.
