@@ -12,3 +12,9 @@ A database is a structured collection of interrelated data organized in a way th
 * It is a collection of interrelated data.
 * It can be stored in the form of tables.
 * It can be of any size.
+
+<b>Example of database:</b>
+![17395221110214575176719766398525](https://github.com/user-attachments/assets/8a1fd473-7309-4911-abe0-caa5572f27aa)
+For example, in a multimedia database, the image table would contain information about images like pixels, length, and width. Similarly, the video table would have features like pixels and video length. The image and video tables would be part of the multimedia database.
+
+Similarly, a college database would have tables like professor and student tables that are related to the timetable for class schedules.
