@@ -42,3 +42,18 @@ Mainly two types of database -
    Can store structured, semi-structured, or unstructured data.
    Handle large data volumes at high speed
    Good for storing large data volumes.
+
+## DBMS and its Applications
+A DBMS is a software application that acts as an interface between the data and the end user, allowing users to efficiently store, manage, retrieve, and manipulate large volumes of structured data. DBMS provides these functionalities by allowing database managers to implement certain rules and regulations in the system for different operations over the data.
+* Organisation: data is arranged into tables in DBMSs, each having a unique collection of rows (like individual books) and columns (like book characteristics).
+* Search and Retrieval: users can perform queries to search for specific data using structured query language (SQL) or other interfaces.
+* Access Control: access control mechanisms ensure that only authorized users can access certain data, protecting sensitive information.
+* Concurrency Control: In a DBMS, concurrency control mechanisms manage multiple users accessing the database simultaneously, preventing data corruption or loss.
+* Data Integrity: DBMS ensures data integrity by enforcing rules such as constraints and validations to maintain the accuracy and consistency of the data.
+For example: Imagine your college’s library. Your library has thousands of books, and each book contains valuable information. Now, think of your library as a database, and each book as a record in that database.
+![17395248332252415117613415333061](https://github.com/user-attachments/assets/1d468954-9333-4cc5-a51a-9a02cf2ac828)
+### Applications of DBMS
+* Banks
+* Schools and Colleges
+* E-commerce 
+* Enterprise Resource Planning (ERP)
