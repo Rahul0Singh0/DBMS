@@ -64,3 +64,27 @@ DBMS plays a vital role for businesses, institutions, and organizations to effec
 * Managing Data: DBMS assists in managing operations like inserting, deleting, and manipulating data effectively.
 * Ensuring Data Accuracy and Security: DBMS provides access control, ensuring that data is not accessible to unauthorized parties, which guarantees security and data accuracy.
 * Supporting Decision-Making: DBMS provides control over how data is handled, which supports essential decision-making for businesses and organizations.
+
+## Data Abstraction
+Database systems are built with complex ways of organizing data. To make it easier for people to use the database, the creators hide the complicated details that users don't need to worry about. This hiding of unnecessary complexities from users is called data abstraction.
+
+For example: A user will not be concerned about indexing, memory storage locations, or what data structures are used behind the scenes. The user can directly interact with the database without needing to understand these underlying complexities.
+
+### Levels of Abstraction
+There are three levels of data abstraction:
+![17395271813233575711500381173776](https://github.com/user-attachments/assets/396a28c2-2b3e-4c87-b298-d6fe4e255ce8)
+
+#### Physical Level:
+This is the lowest level of data abstraction. It describes how data is stored in a database, providing details about complex data structures.
+
+For example: Think of a library storing books. The physical level involves how the books are physically stored on shelves, the materials used to make the shelves, and how the shelves are arranged within the library space.
+
+#### Logical Level:
+This is the middle level of the 3-level data abstraction architecture. It describes what data is stored in the database and how it is structured.
+
+For example: Consider a library's catalogue system. At the logical level, it’s like looking at how books are categorised and indexed for easy retrieval. This includes details like the indexing methods used and how books are classified by subject, author, and title. It helps visitors search and find books based on their interests.
+
+#### View Level:
+This is the highest level of data abstraction. It describes the interaction between users and the database system, focusing on what users can see and access.
+
+For example: In a library, different visitors may have different levels of access. At the view level, it's like determining who can borrow specific types of books or access restricted sections based on their role or membership level.
