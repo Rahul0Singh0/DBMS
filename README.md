@@ -50,6 +50,7 @@ A DBMS is a software application that acts as an interface between the data and 
 * Access Control: access control mechanisms ensure that only authorized users can access certain data, protecting sensitive information.
 * Concurrency Control: In a DBMS, concurrency control mechanisms manage multiple users accessing the database simultaneously, preventing data corruption or loss.
 * Data Integrity: DBMS ensures data integrity by enforcing rules such as constraints and validations to maintain the accuracy and consistency of the data.
+
 For example: Imagine your college’s library. Your library has thousands of books, and each book contains valuable information. Now, think of your library as a database, and each book as a record in that database.
 ![17395248332252415117613415333061](https://github.com/user-attachments/assets/1d468954-9333-4cc5-a51a-9a02cf2ac828)
 ### Applications of DBMS
