@@ -27,3 +27,18 @@ A file system is a structure that an operating system uses to manage and organiz
 2. Poor Memory Utilization: Due to storing the same information like customer names and phone numbers in multiple spreadsheets, memory resources are poorly utilized.
 3. Data Inconsistency: If a customer's address is updated in the customer contacts spreadsheet but remains unchanged in the sales spreadsheet, it causes data inconsistency.
 4. Data Security: File systems do not ensure controlled access to sensitive data. In DBMS, it is possible to limit access to specific data, which protects against unauthorized access.
+
+## Types of database
+Mainly two types of database - 
+1. Relational Database (Sql)
+   It will store the data in tabular form.
+   Organized into tables with rows and columns.
+   Use SQL to manage data.
+   Support ACID (atomicity, consistency, isolation, and durability).
+   Ensure data reliability and consistency.
+   Good for applications where data consistency is critical.
+3. NoSql (Not only Sql)
+   NoSQL databases are more flexible and can store data in any structure.
+   Can store structured, semi-structured, or unstructured data.
+   Handle large data volumes at high speed
+   Good for storing large data volumes.
