@@ -194,3 +194,20 @@ NoSQL databases offer various data models, including:
 * Graph (e.g., Neo4j)
 
 These models are designed for scalability and flexibility, particularly when managing large amounts of unstructured or semi-structured data.
+
+## Entity and Its Types
+An Entity is something from the real world, like a person, place, event, or idea. Each entity has specific features or traits that describe it.
+
+There are two types of entities:
+### Strong Entity
+A strong entity is an entity that has its unique identifier (primary key) and is not dependent on any other entity for its existence within the database. Strong entities stand alone and have their own set of attributes. For Example- An entity “person” can exist independently.
+
+### Weak Entity
+A weak entity is an entity that doesn't have a primary key of its own. It relies on a related strong entity (known as the "owner" entity) for its identity. The weak entity’s existence is defined by being related to the owner entity. For example- In a company, employees can file for dependents under their name. In this case, the entity, “Dependents” is weak.
+![17395316856568313674779667794494](https://github.com/user-attachments/assets/46880b0e-084c-4042-8c17-5777ef4463b1)
+
+From the figure, it can be seen that the “Student” table is a strong entity as it can exist independently. However, the “Course” table has a foreign key of S.ID (as explained here). This makes the “course” entity dependent on the “Student” entity. Hence, the “course” entity is a weak entity.
+![17395317913369049110837190535898](https://github.com/user-attachments/assets/686838f6-904b-4867-8508-4e7e1aee1955)
+
+## Extended ER Features
+The Extended Entity-Relationship (EER) model is an enhancement of the basic Entity-Relationship (ER) model used in database design. It includes additional features that provide more detail and allow for a more accurate representation of complex real-world scenarios.
