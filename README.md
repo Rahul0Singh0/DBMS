@@ -18,3 +18,12 @@ A database is a structured collection of interrelated data organized in a way th
 For example, in a multimedia database, the image table would contain information about images like pixels, length, and width. Similarly, the video table would have features like pixels and video length. The image and video tables would be part of the multimedia database.
 
 Similarly, a college database would have tables like professor and student tables that are related to the timetable for class schedules.
+
+## File System
+A file system is a structure that an operating system uses to manage and organize files on a storage device, such as a hard drive or USB flash drive. It defines how data is organized, accessed, and stored on the storage device. The file system acts as an interface between the user and the data.
+
+### Disadvantages of the File System
+1. Data Redundancy: Imagine a company using separate spreadsheets for sales, customer contacts, and inventory. If a customer buys a product, their information might be entered in all three spreadsheets, causing duplication.
+2. Poor Memory Utilization: Due to storing the same information like customer names and phone numbers in multiple spreadsheets, memory resources are poorly utilized.
+3. Data Inconsistency: If a customer's address is updated in the customer contacts spreadsheet but remains unchanged in the sales spreadsheet, it causes data inconsistency.
+4. Data Security: File systems do not ensure controlled access to sensitive data. In DBMS, it is possible to limit access to specific data, which protects against unauthorized access.
