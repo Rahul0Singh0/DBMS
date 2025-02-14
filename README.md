@@ -123,3 +123,31 @@ For example: In a university database, for a Student's Portal, the view will hav
 ### Instance
 The term "instance" in this context denotes the current values of these variables at a particular moment in time for that database.
 ![17395289223113236865712337908942](https://github.com/user-attachments/assets/7ea3e748-d7e6-4122-84d8-8f05a96f4dc8)
+
+## 3-Tier DBMS Architecture
+3-tier architecture is the most widely used architecture in real-world large and complex web applications like Facebook. This architecture separates the application into three logically distinct layers:
+
+* Presentation Layer - Handles the user interface
+* Application Layer - Manages business logic
+* Data Layer - Manages data storage and processing
+
+In this architecture, the end user has no idea about the existence of the database beyond the application server. Similarly, the database has no knowledge about any other user beyond the application.
+
+Let us imagine an online shopping scenario. Whenever you go onto a platform like Amazon and perform an operation, such as searching for a product or adding an item to your cart, you interact with the frontend or User Interface (UI) of the application, which is represented by the Presentation Layer.
+
+Any operation performed at the presentation layer gets sent to the next layer, the Application Layer, as a request. Upon receiving the request, the application layer interprets the request, formulates a corresponding database query, and sends it to the Data Layer. The data layer, which stores all the data, receives the query and executes it against the database.
+
+Relevant information, such as product details and user account information, is retrieved, and the results are sent back to the application layer. The application layer processes the data further if necessary (e.g., formatting) and sends the response back to the presentation layer. The presentation layer then presents the results to the user, completing the process.
+![17395296487623660268080924641727](https://github.com/user-attachments/assets/ba2c35c9-4d54-4734-b1cd-e8d76b1541e5)
+
+### Advantages of 3-Tier Architecture
+1. Scalability: Enhanced scalability due to the distributed deployment of application servers. Each layer can be adjusted without altering other layers.
+2. Security: The client does not directly interact with the server, providing an added layer of security.
+3. Modularity and Maintainability: Maintenance is simplified due to the separation of responsibilities.
+4. Performance: Individual optimisation of presentation or application tiers is possible, leading to better performance.
+
+### Disadvantages of 3-Tier Architecture
+1. Increased Complexity: The introduction of an extra middle layer increases the complexity of the system. Communication points are also doubled.
+2. Potential Latency Issues and Bottlenecks: The added step of processing increases the possibility of latency and bottlenecks, as problems can arise in any layer at any time.
+3. Longer Development Time: Implementing three tiers with different logics and distributed responsibilities results in longer development time.
+4. Resource Overhead: Implementing an extra tier causes resource overhead for development, processing, and maintenance of the architecture.
