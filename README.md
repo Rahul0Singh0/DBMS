@@ -211,3 +211,33 @@ From the figure, it can be seen that the “Student” table is a strong entity 
 
 ## Extended ER Features
 The Extended Entity-Relationship (EER) model is an enhancement of the basic Entity-Relationship (ER) model used in database design. It includes additional features that provide more detail and allow for a more accurate representation of complex real-world scenarios.
+
+### Why do we need the EER model?
+We design an ER model for relationships between entities. In the real world, the data may exhibit some hierarchical relationships, and the EER model provides mechanisms to represent these relationships accurately, which helps in code reusability, ensuring data integrity and consistency, and lowering the complexity.
+![1740846727888352644863017650648](https://github.com/user-attachments/assets/0f227521-b20c-49f8-8c43-d3ca0bfcd26b)
+For example, in the figure above, the “Person” entity is overburdened with all the attributes. However, most attributes are specific to a particular category, like “C.ID” to “Customer,” “S.ID” to “Student,” and “E.ID” and “Salary” to “Employee.” “Name” and “Age” are common attributes for the “Customer,” “Student,” and “Employee” entities.
+![1740846776553191570758439268999](https://github.com/user-attachments/assets/d809e8f6-24b5-4970-8d93-2792a9b34b8b)
+Hence, using EER features, we can reduce the complexity of the ER Model by introducing subclasses. This will also help in reducing the overburdening of just one entity, i.e., “Parent.”
+
+## EER features
+* <b>Specialisation:</b> This is a top-down process where a general entity is divided into more specific entities based on certain attributes or relationships.
+For example, from a general "Person" entity, you might specialise in "Employee" and "Student."
+
+Follows the property of inheritance, i.e., attributes of the parent class are inherited by the child class.
+Example: From a general "Person" entity, we might specialise in "Employee" and "Student."
+
+* <b>Generalisation:</b> This is a bottom-up process where multiple specific entities are combined into a more general entity. For example, "Car" and "Bike" might be generalised into a single "Vehicle" entity.
+Follows the property of Abstraction, i.e., some attributes like “Model” and “Engine type” might be common in the child entities. They can be identified and given to the parent class to reduce redundancy.
+
+Example: "Car" and "Bike" might be generalised into a single "Vehicle" entity.
+
+* <b>Aggregation:</b> It can be thought of as stacking things on top of each other to create a structure. It is used to create a hierarchical structure in data modelling, showing how a higher-level entity is composed of lower-level entities.
+This follows the property of Abstraction, as multiple lower-level entities are combined into one to form a higher-level entity, thereby abstracting the complexity from the user.
+
+Example: A "Project" entity might be composed of "Tasks," where each task is an entity itself.
+
+### Benefits of Using the Enhanced Entity-Relationship (EER) Model
+* Enhanced Clarity and Structure
+* Improved Maintainability
+* Better Representation of Real-World Scenarios
+Note: https://takeuforward.org/dbms/extended-ER-features
