@@ -30,7 +30,7 @@ SQL commands are instructions used to communicate with a database to perform var
 * Transaction Control Language (TCL)
 * Data Query Language (DQL)
 
-## Data Definition Language
+## Data Definition Language (DDL)
 DDL commands are used to define and manage database schema and structure.
 ### CREATE command
 * Creates new database.
@@ -38,6 +38,7 @@ DDL commands are used to define and manage database schema and structure.
 * NOTE: In SQL, a view is a virtual table based on the result-set of an SQL statement.
 * NOTE: Indexes are used to retrieve data from the database more quickly than otherwise. The users cannot see the indexes, they are just used to speed up searches/queries.
 ``` SQL
+-- case insensitive
 CREATE DATABASE EXAMPLE;
 USE EXAMPLE;
 CREATE TABLE employees (
@@ -46,4 +47,27 @@ CREATE TABLE employees (
     position VARCHAR(50),
     salary DECIMAL(10, 2)
 );
+```
+![image](https://github.com/user-attachments/assets/91d766cd-51cc-4df9-8afd-22bc38dfa9aa)
+
+
+### DROP Command
+Deletes existing database objects.
+``` SQL
+DROP TABLE employees;
+```
+
+### ALTER Command
+Modifies existing database objects.
+``` SQL
+ALTER TABLE employees
+ADD COLUMN department VARCHAR(50);
+```
+
+![image](https://github.com/user-attachments/assets/00b54d96-7e3e-40bf-bae6-f98fe30bde58)
+
+### TRUNCATE Command
+Removes all records from a table but retains its structure.
+``` SQL
+TRUNCATE TABLE employees;
 ```
