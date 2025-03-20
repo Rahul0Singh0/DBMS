@@ -261,3 +261,5 @@ A degree in DBMS refers to the number of attributes/columns that a relation/tabl
 2. Binary Degree - A relation with two attribute
 3. Ternary Degree - A relation with three attribute
 4. N-ary Degree - A relation with N attribute
+
+5. ## Next Chapter: RDBMS
