@@ -241,3 +241,23 @@ Example: A "Project" entity might be composed of "Tasks," where each task is an 
 * Improved Maintainability
 * Better Representation of Real-World Scenarios
 Note: https://takeuforward.org/dbms/extended-ER-features
+
+## Relationship and Degree in ER Model
+Relationship in the ER Model is the connection between entities (tables) based on related data. It is represented by the diamond in the ER model.
+![image](https://github.com/user-attachments/assets/aad747cf-7f72-4758-8685-4effed777a74)
+
+### Types of Relationship:
+#### Strong Relationship
+A strong relationship exists when two entities are highly dependent on each other, and one entity cannot exist without the other.
+![image](https://github.com/user-attachments/assets/77273385-577f-4e01-8ff3-142d1261d76d)
+#### Weak Relationship
+A weak relationship, on the other hand, exists when two entities are related, but one entity can exist without the other.
+![image](https://github.com/user-attachments/assets/2f35f083-6709-4b11-a454-e8bb4554c900)
+
+### Degree in DBMS
+A degree in DBMS refers to the number of attributes/columns that a relation/table has. For example, in the figure above, for the “Order” table we have attributes, “O.ID”, “Order name” and “Order details”, hence the degree is 3.
+#### Degree Type
+1. Unary Degree - A relation with single attribute
+2. Binary Degree - A relation with two attribute
+3. Ternary Degree - A relation with three attribute
+4. N-ary Degree - A relation with N attribute
