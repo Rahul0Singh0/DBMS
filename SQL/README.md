@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a75f8e4a-bfb4-490f-9646-70412ebb834e)# SQL
+# SQL
 * SQL is the Structured Query Language.
 * It provides standard to RDBMS for accessing and manipulating in relational database.
 It helps in:
